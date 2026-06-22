@@ -74,7 +74,7 @@ Disaster-Management-Analytics/
 - Identify key questions to answer
 - Document technologies and approach
 
-**Status:** 🔲 Not Started
+**Status:** ✅ Complete
 
 ---
 
@@ -82,7 +82,7 @@ Disaster-Management-Analytics/
 - Source historical disaster data from Kaggle
 - Key columns: Year, State, District, Disaster Type, Deaths, Injured, Affected Population, Economic Loss
 
-**Status:** 🔲 Not Started
+**Status:** ✅ Complete
 
 ---
 
@@ -91,7 +91,7 @@ Disaster-Management-Analytics/
 - Standardize state names (e.g. `TN` → `Tamil Nadu`)
 - Feature engineering: Severity levels, Decade grouping
 
-**Status:** 🔲 Not Started
+**Status:** ✅ Complete
 
 ---
 
@@ -167,9 +167,9 @@ Disaster-Management-Analytics/
 
 | Phase | Description | Status |
 |---|---|---|
-| 1 | Problem Understanding | 🔲 Not Started |
-| 2 | Dataset Collection | 🔲 Not Started |
-| 3 | Data Cleaning | 🔲 Not Started |
+| 1 | Problem Understanding | ✅ Complete |
+| 2 | Dataset Collection | ✅ Complete |
+| 3 | Data Cleaning | ✅ Complete |
 | 4 | Exploratory Data Analysis | 🔲 Not Started |
 | 5 | SQL Database & Analytics | 🔲 Not Started |
 | 6 | Power BI Dashboard | 🔲 Not Started |
@@ -214,9 +214,9 @@ scikit-learn
 
 ## 🙋 Author
 
-**[Your Name]**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
+**[SIVA S]**
+- GitHub: [siva252005](https://github.com/siva252005/Disaster-Management-Analytics)
+- LinkedIn: [siva sivakumar](www.linkedin.com/in/sivasivakumar252005)
 
 ---
 
