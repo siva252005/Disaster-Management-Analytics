@@ -102,7 +102,7 @@ Disaster-Management-Analytics/
 - Economic loss distribution (Pie chart)
 - Correlation heatmap (Deaths vs Injured vs Affected Population)
 
-**Status:** 🔲 Not Started
+**Status:**  ✅ Complete
 
 ---
 
@@ -170,7 +170,7 @@ Disaster-Management-Analytics/
 | 1 | Problem Understanding | ✅ Complete |
 | 2 | Dataset Collection | ✅ Complete |
 | 3 | Data Cleaning | ✅ Complete |
-| 4 | Exploratory Data Analysis | 🔲 Not Started |
+| 4 | Exploratory Data Analysis |  ✅ Complete |
 | 5 | SQL Database & Analytics | 🔲 Not Started |
 | 6 | Power BI Dashboard | 🔲 Not Started |
 | 7 | Insight Generation | 🔲 Not Started |
