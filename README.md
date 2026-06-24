@@ -1,6 +1,6 @@
 # 🌪️ Disaster Management Analytics Platform
 
-> Analyzing historical disaster data to uncover vulnerability patterns, resource gaps, and risk trends across India — powered by Python, SQL, Power BI, and Streamlit.
+> Analyzing historical disaster data to uncover vulnerability patterns, resource gaps, and risk trends across countries and regions globally — powered by Python, SQL, Power BI, and Streamlit.
 
 ---
 
@@ -8,7 +8,7 @@
 
 Natural disasters cause massive loss of life and economic damage every year. This project aims to analyze historical disaster data to answer critical questions:
 
-- Which countries and regions are most vulnerable?
+- Which countries and regions are most vulnerable to disasters?
 - Which disaster types cause maximum deaths and economic loss?
 - What are the trends over the years?
 - How many people are affected on average?
@@ -46,7 +46,10 @@ Disaster-Management-Analytics/
 │   └── disaster_queries.sql
 │
 ├── dashboard/
-│   └── disaster_dashboard.pbix
+│   ├── disaster_dashboard.pbix
+│   └── dashboard_screenshots/
+│       ├── overview_dashboard.png
+│       └── impact_dashboard.png
 │
 ├── app/
 │   └── streamlit_app.py
@@ -54,7 +57,7 @@ Disaster-Management-Analytics/
 ├── images/
 │   ├── disaster_types.png
 │   ├── yearly_trend.png
-│   ├── top_states.png
+│   ├── top_countries.png
 │   └── heatmap.png
 │
 ├── reports/
@@ -80,7 +83,7 @@ Disaster-Management-Analytics/
 
 ### 🟨 Phase 2 — Dataset Collection
 - Source historical disaster data from Kaggle
-- Key columns: Year, State, District, Disaster Type, Deaths, Injured, Affected Population, Economic Loss
+- Key columns: Year, Country, Region, Continent, Disaster Type, Deaths, Injured, Affected Population, Economic Loss
 
 **Status:** ✅ Complete
 
@@ -88,7 +91,7 @@ Disaster-Management-Analytics/
 
 ### 🟦 Phase 3 — Data Cleaning
 - Remove duplicates and handle missing values
-- Standardize state names (e.g. `TN` → `Tamil Nadu`)
+- Standardize country and region names
 - Feature engineering: Severity levels, Decade grouping
 
 **Status:** ✅ Complete
@@ -98,27 +101,36 @@ Disaster-Management-Analytics/
 ### 🟧 Phase 4 — Exploratory Data Analysis
 - Most common disaster types (Bar chart)
 - Year-wise trend (Line plot)
-- Top affected states (Horizontal bar)
-- Economic loss distribution (Pie chart)
+- Top affected countries (Horizontal bar)
+- Economic loss by country (Pie chart)
 - Correlation heatmap (Deaths vs Injured vs Affected Population)
 
-**Status:**  ✅ Complete
+**Status:** ✅ Complete
 
 ---
 
 ### 🟥 Phase 5 — SQL Database & Analytics
 - Create `disaster_db` MySQL database
 - Import cleaned data
-- Run analytical queries: top states, highest deaths, economic loss by state
+- Run analytical queries: top countries, highest deaths, economic loss by country
 
 **Status:** ✅ Complete
 
 ---
 
 ### 🟫 Phase 6 — Power BI Dashboard
+
+**Overview Dashboard**
 - KPI Cards: Total Disasters, Deaths, Injured, Population Affected, Economic Loss
-- Charts: Year-wise trend, State-wise disasters, Disaster distribution, Economic loss treemap
-- Slicers: Year, State, Disaster Type
+- Disaster Trend (Year-wise line chart)
+- Top Countries by Disaster Count (Bar chart)
+- Severity Distribution (Donut chart)
+
+**Impact Analysis Dashboard**
+- Death Analysis (Stacked column chart)
+- Economic Loss Analysis (Treemap)
+- Global Disaster Map
+- Slicers: Year, Country, Disaster Type
 
 **Status:** ✅ Complete
 
@@ -126,15 +138,16 @@ Disaster-Management-Analytics/
 
 ### 🟪 Phase 7 — Insight Generation
 - Identify top disaster types by frequency and impact
-- Highlight most vulnerable states
+- Highlight most vulnerable countries and regions
 - Summarize key findings in `reports/insights.md`
 
 **Status:** ✅ Complete
+
 ---
 
 ### 🔵 Phase 8 — Streamlit Web Application
 - Home: KPI overview
-- State Analysis: Filter by state
+- Country Analysis: Filter by country
 - Disaster Analysis: Filter by type
 - Trends: Year-wise graphs
 - Download: Export CSV/PDF report
@@ -169,13 +182,23 @@ Disaster-Management-Analytics/
 | 1 | Problem Understanding | ✅ Complete |
 | 2 | Dataset Collection | ✅ Complete |
 | 3 | Data Cleaning | ✅ Complete |
-| 4 | Exploratory Data Analysis |  ✅ Complete |
+| 4 | Exploratory Data Analysis | ✅ Complete |
 | 5 | SQL Database & Analytics | ✅ Complete |
 | 6 | Power BI Dashboard | ✅ Complete |
-| 7 | Insight Generation |✅ Complete |
+| 7 | Insight Generation | ✅ Complete |
 | 8 | Streamlit Web Application | ✅ Complete |
 | 9 | Advanced Features | ✅ Complete |
 | 10 | Deployment | ✅ Complete |
+
+---
+
+## 📸 Dashboard Screenshots
+
+### Overview Dashboard
+![Overview](dashboard/dashboard_screenshots/overview_dashboard.png)
+
+### Impact Analysis Dashboard
+![Impact](dashboard/dashboard_screenshots/impact_dashboard.png)
 
 ---
 
@@ -187,7 +210,7 @@ Disaster-Management-Analytics/
 pip install -r requirements.txt
 ```
 
-### Run the Streamlit App (once complete)
+### Run the Streamlit App
 
 ```bash
 streamlit run app/streamlit_app.py
@@ -213,9 +236,9 @@ scikit-learn
 
 ## 🙋 Author
 
-**[SIVA S]**
-- GitHub: [siva252005](https://github.com/siva252005/Disaster-Management-Analytics)
-- LinkedIn: [siva sivakumar](www.linkedin.com/in/sivasivakumar252005)
+**Siva Sivakumar**
+- GitHub: [@siva252005](https://github.com/siva252005)
+- LinkedIn: [sivasivakumar252005](https://www.linkedin.com/in/sivasivakumar252005)
 
 ---
 
