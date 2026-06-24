@@ -111,7 +111,7 @@ Disaster-Management-Analytics/
 - Import cleaned data
 - Run analytical queries: top states, highest deaths, economic loss by state
 
-**Status:** 🔲 Not Started
+**Status:** ✅ Complete
 
 ---
 
@@ -120,7 +120,7 @@ Disaster-Management-Analytics/
 - Charts: Year-wise trend, State-wise disasters, Disaster distribution, Economic loss treemap
 - Slicers: Year, State, Disaster Type
 
-**Status:** 🔲 Not Started
+**Status:** ✅ Complete
 
 ---
 
@@ -171,8 +171,8 @@ Disaster-Management-Analytics/
 | 2 | Dataset Collection | ✅ Complete |
 | 3 | Data Cleaning | ✅ Complete |
 | 4 | Exploratory Data Analysis |  ✅ Complete |
-| 5 | SQL Database & Analytics | 🔲 Not Started |
-| 6 | Power BI Dashboard | 🔲 Not Started |
+| 5 | SQL Database & Analytics | ✅ Complete |
+| 6 | Power BI Dashboard | ✅ Complete |
 | 7 | Insight Generation | 🔲 Not Started |
 | 8 | Streamlit Web Application | 🔲 Not Started |
 | 9 | Advanced Features | 🔲 Not Started |
