@@ -158,7 +158,7 @@ Disaster-Management-Analytics/
 - Deploy Streamlit app publicly
 - Add screenshots, architecture diagram, and business insights
 
-**Status:** 🔲 Not Started
+**Status:** ✅ Complete
 
 ---
 
@@ -175,7 +175,7 @@ Disaster-Management-Analytics/
 | 7 | Insight Generation |✅ Complete |
 | 8 | Streamlit Web Application | ✅ Complete |
 | 9 | Advanced Features | ✅ Complete |
-| 10 | Deployment | 🔲 Not Started |
+| 10 | Deployment | ✅ Complete |
 
 ---
 
