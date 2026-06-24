@@ -8,7 +8,7 @@
 
 Natural disasters cause massive loss of life and economic damage every year. This project aims to analyze historical disaster data to answer critical questions:
 
-- Which states are most vulnerable to disasters?
+- Which countries and regions are most vulnerable?
 - Which disaster types cause maximum deaths and economic loss?
 - What are the trends over the years?
 - How many people are affected on average?
@@ -129,8 +129,7 @@ Disaster-Management-Analytics/
 - Highlight most vulnerable states
 - Summarize key findings in `reports/insights.md`
 
-**Status:** 🔲 Not Started
-
+**Status:** ✅ Complete
 ---
 
 ### 🔵 Phase 8 — Streamlit Web Application
@@ -140,7 +139,7 @@ Disaster-Management-Analytics/
 - Trends: Year-wise graphs
 - Download: Export CSV/PDF report
 
-**Status:** 🔲 Not Started
+**Status:** ✅ Complete
 
 ---
 
@@ -151,7 +150,7 @@ Disaster-Management-Analytics/
 - Geographical heatmap using Folium
 - PDF Report Generator
 
-**Status:** 🔲 Not Started
+**Status:** ✅ Complete
 
 ---
 
@@ -173,9 +172,9 @@ Disaster-Management-Analytics/
 | 4 | Exploratory Data Analysis |  ✅ Complete |
 | 5 | SQL Database & Analytics | ✅ Complete |
 | 6 | Power BI Dashboard | ✅ Complete |
-| 7 | Insight Generation | 🔲 Not Started |
-| 8 | Streamlit Web Application | 🔲 Not Started |
-| 9 | Advanced Features | 🔲 Not Started |
+| 7 | Insight Generation |✅ Complete |
+| 8 | Streamlit Web Application | ✅ Complete |
+| 9 | Advanced Features | ✅ Complete |
 | 10 | Deployment | 🔲 Not Started |
 
 ---

@@ -1,0 +1,48 @@
+/* Main app */
+.stApp {
+    background-color: #0f172a;
+    color: white;
+}
+
+/* Main container */
+[data-testid="stAppViewContainer"] {
+    background-color: #0f172a;
+    color: white;
+}
+
+/* Sidebar */
+[data-testid="stSidebar"] {
+    background-color: #111827;
+}
+
+/* Titles */
+h1,h2,h3,h4 {
+    color: white !important;
+}
+
+/* Metrics */
+[data-testid="metric-container"]{
+    background-color:#1e293b;
+    border:1px solid #3b82f6;
+    padding:15px;
+    border-radius:15px;
+}
+
+/* Buttons */
+.stButton>button,
+.stDownloadButton>button{
+    background-color:#2563eb;
+    color:white;
+    border-radius:10px;
+}
+
+/* Charts */
+.plot-container{
+    background-color:#1e293b;
+    border-radius:10px;
+}
+
+/* Text */
+p,label,span{
+    color:white !important;
+}
