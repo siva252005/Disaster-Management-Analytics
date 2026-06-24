@@ -2,6 +2,10 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
+st.set_page_config(
+    page_title="Overview Dashboard",
+    layout="wide"
+)
 # Load CSS
 def load_css():
     with open("app/assets/style.css") as f:
@@ -27,17 +31,11 @@ df = pd.read_csv("data/processed/disaster_cleaned.csv")
 # ---------------- SIDEBAR FILTERS ----------------
 st.sidebar.header("Filters")
 
-selected_continent = st.sidebar.multiselect(
-    "Continent",
-    options=df["Continent"].unique(),
-    default=df["Continent"].unique()
-)
-
-selected_disaster = st.sidebar.multiselect(
-    "Disaster Type",
-    options=df["Disaster_Type"].unique(),
-    default=df["Disaster_Type"].unique()
-)
+filtered_df = df[
+    (df["Continent"] == selected_continent)
+    & (df["Disaster_Type"].isin(selected_disaster))
+    & (df["Year"].between(selected_year[0], selected_year[1]))
+]
 
 selected_year = st.sidebar.slider(
     "Year Range",

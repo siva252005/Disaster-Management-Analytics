@@ -213,7 +213,7 @@ pip install -r requirements.txt
 ### Run the Streamlit App
 
 ```bash
-streamlit run app/streamlit_app.py
+python -m streamlit run app/app.py
 ```
 
 ---
